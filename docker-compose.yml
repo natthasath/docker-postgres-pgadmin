@@ -3,7 +3,7 @@ version: '3.9'
 services:
   postgres:
     image: postgres:latest
-    container_name: laravel-database
+    container_name: postgres
     restart: always
     ports:
       - 5432:5432
@@ -19,7 +19,7 @@ services:
   pgadmin:
     #image: dpage/pgadmin4
     image: pgadmin:latest
-    container_name: laravel-pgadmin
+    container_name: pgadmin
     restart: always
     ports:
       - 5080:80
