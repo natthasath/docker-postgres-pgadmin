@@ -1,0 +1,37 @@
+version: '3.9'
+
+services:
+  postgres:
+    image: postgres:latest
+    container_name: laravel-database
+    restart: always
+    ports:
+      - 5432:5432
+    networks:
+      - default
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: laravel
+      TZ: 'GMT+7'
+      PGTZ: 'GMT+7'
+
+  pgadmin:
+    #image: dpage/pgadmin4
+    image: pgadmin:latest
+    container_name: laravel-pgadmin
+    restart: always
+    ports:
+      - 5080:80
+      - 5443:443
+    environment:
+      PGADMIN_DEFAULT_EMAIL: pgadmin4@pgadmin.org
+      PGADMIN_DEFAULT_PASSWORD: admin
+
+networks:
+  default:
+    driver: bridge
+
+volumes:
+  data:
+    driver: local
