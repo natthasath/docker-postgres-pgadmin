@@ -1,5 +1,4 @@
 version: '3.9'
-
 services:
   postgres:
     image: postgres:latest
@@ -17,8 +16,7 @@ services:
       PGTZ: 'GMT+7'
 
   pgadmin:
-    #image: dpage/pgadmin4
-    image: pgadmin:latest
+    image: dpage/pgadmin4
     container_name: pgadmin
     restart: always
     ports:
