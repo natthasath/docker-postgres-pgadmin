@@ -1,4 +1,4 @@
-# 🎉 Docker Postgres PGADMIN
+# 🎉 Docker Postgres pgAdmin
 
 PostgreSQL is a powerful, open source object-relational database system with over 35 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance. And pgAdmin is the most popular and feature rich Open Source administration and development platform for PostgreSQL, the most advanced Open Source database in the world.
 
