@@ -1,6 +1,6 @@
 # 🎉 Docker Postgres pgAdmin
 
-PostgreSQL is a powerful, open source object-relational database system with over 35 years of active development that has earned it a strong reputation for reliability, feature robustness, and performance. And pgAdmin is the most popular and feature rich Open Source administration and development platform for PostgreSQL, the most advanced Open Source database in the world.
+Postgres and pgAdmin are open-source tools. Postgres is a database management system, while pgAdmin is a web-based interface for managing Postgres databases. Together, they provide an easy way to manage and interact with relational databases.
 
 ![version](https://img.shields.io/badge/version-1.0-blue)
 ![rating](https://img.shields.io/badge/rating-★★★★★-yellow)
