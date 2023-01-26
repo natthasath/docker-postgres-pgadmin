@@ -8,7 +8,7 @@ Postgres and pgAdmin are open-source tools. Postgres is a database management sy
 
 ### 🥈 Run
 
-- [http://localhost:5080/](http://localhost:5080/) PGADMIN > username : `pgadmin4@pgadmin.org` password : `admin`
+- [http://localhost:80/](http://localhost:80/) PGADMIN > username : `pgadmin4@pgadmin.org` password : `admin`
 
 ```shell
 docker-compose up -d
