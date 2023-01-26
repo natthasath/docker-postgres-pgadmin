@@ -11,7 +11,7 @@ services:
     environment:
       POSTGRES_USER: ${DB_USER}
       POSTGRES_PASSWORD: ${DB_PASS}
-      POSTGRES_DB: laravel
+      POSTGRES_DB: ${DB_NAME}
       TZ: ${TZ}
       PGTZ: ${TZ}
 
