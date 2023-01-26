@@ -5,26 +5,26 @@ services:
     container_name: postgres
     restart: always
     ports:
-      - 5432:5432
+      - ${DB_PORT}:5432
     networks:
       - default
     environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASS}
       POSTGRES_DB: laravel
-      TZ: 'GMT+7'
-      PGTZ: 'GMT+7'
+      TZ: ${TZ}
+      PGTZ: ${TZ}
 
   pgadmin:
     image: dpage/pgadmin4
     container_name: pgadmin
     restart: always
     ports:
-      - 5080:80
-      - 5443:443
+      - ${HTTP_PORT}:80
+      - ${HTTPS_PORT}:443
     environment:
-      PGADMIN_DEFAULT_EMAIL: pgadmin4@pgadmin.org
-      PGADMIN_DEFAULT_PASSWORD: admin
+      PGADMIN_DEFAULT_EMAIL: ${APP_USER}
+      PGADMIN_DEFAULT_PASSWORD: ${APP_PASS}
 
 networks:
   default:
