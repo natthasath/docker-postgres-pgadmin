@@ -14,7 +14,7 @@ Postgres and pgAdmin are open-source tools. Postgres is a database management sy
 docker-compose up -d
 ```
 
-### 🚀 Setup
+### 👉🏻 Try it out
 
 ```shell
 psql postgresql://postgres:password@127.0.0.1:5432/dbtest
