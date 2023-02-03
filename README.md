@@ -6,7 +6,7 @@ Postgres and pgAdmin are open-source tools. Postgres is a database management sy
 ![rating](https://img.shields.io/badge/rating-★★★★★-yellow)
 ![uptime](https://img.shields.io/badge/uptime-100%25-brightgreen)
 
-### 🥈 Run
+### 🏆 Run
 
 - [http://localhost:80/](http://localhost:80/) PGADMIN > username : `pgadmin4@pgadmin.org` password : `admin`
 
