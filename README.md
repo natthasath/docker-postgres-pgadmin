@@ -17,5 +17,5 @@ docker-compose up -d
 ### 👉🏻 Try it out
 
 ```shell
-psql postgresql://postgres:password@127.0.0.1:5432/dbtest
+psql postgresql://username:password@127.0.0.1:5432/db
 ```
